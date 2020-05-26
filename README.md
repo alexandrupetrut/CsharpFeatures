@@ -43,4 +43,6 @@ This Repository will cover features that have been around since C# 6, up to the 
 *Switch Expressions*,
 *Using Declarations*,
 *Indices and Ranges*,
-*Null Coalescing Assignments*
+*Null Coalescing Assignments*,
+*Asynchronous Streams*,
+*Property Pattern*
