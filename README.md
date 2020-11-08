@@ -1,5 +1,5 @@
 ## CsharpFeatures
-This Repository will cover features that have been around since C# 6, up to the latest C# version presently released (C# 8).
+This Repository will cover features that have been around since C# 6, up to the latest C# version presently released (C# 9).
 
 
 ### **C# 6 features :**
@@ -38,7 +38,7 @@ This Repository will cover features that have been around since C# 6, up to the 
 
 
 ### **C# 8 features :**
-*Read-Only Struct Members*,
+*Read-Only (Struct) Members*,
 *Default Interface Method Implementations*,
 *Switch Expressions*,
 *Using Declarations*,
