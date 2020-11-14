@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CSharp6.Library.b. using Static
+namespace CSharp6.Library.a._Auto_Property_Initializer
 {
     public class Demo
     {
