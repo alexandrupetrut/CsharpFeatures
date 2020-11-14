@@ -5,4 +5,11 @@
         <TargetFramework>netcoreapp3.1</TargetFramework>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\CSharp6.Library\CSharp6.Library.csproj" />
+      <ProjectReference Include="..\CSharp7.Library\CSharp7.Library.csproj" />
+      <ProjectReference Include="..\CSharp8.Library\CSharp8.Library.csproj" />
+      <ProjectReference Include="..\CSharp9.Library\CSharp9.Library.csproj" />
+    </ItemGroup>
+
 </Project>
