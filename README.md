@@ -46,3 +46,13 @@ This Repository will cover features that have been around since C# 6, up to the 
 *Null Coalescing Assignments*,
 *Asynchronous Streams*,
 *Property Pattern*
+
+
+### **C# 9 features :**
+*Top Level Calls*,
+*Init setters*,
+*Known object type - shorthand instantiation*,
+*Relational Pattern Matching*,
+*Logical Pattern Matching*,
+*is not Pattern*,
+*Records*
