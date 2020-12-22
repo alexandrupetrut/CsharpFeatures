@@ -15,19 +15,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp_Version_9", "CSharp_
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Top level calls", "1. Top level calls", "{1F4A1986-CE33-46BC-A783-63601A2490D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleUI", "ConsoleUI\ConsoleUI.csproj", "{AB47DA55-FF58-47F2-9794-96E3E296ACDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleUI", "ConsoleUI\ConsoleUI.csproj", "{AB47DA55-FF58-47F2-9794-96E3E296ACDC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Initial setters + Known object type instantiation", "2. Initial setters + Known object type instantiation", "{7B8A6D83-A60D-4748-865D-1BE2454ED502}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleUI_2", "ConsoleUI_2\ConsoleUI_2.csproj", "{C9828B61-F60C-4667-AD7F-F97D04C6C1E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleUI_2", "ConsoleUI_2\ConsoleUI_2.csproj", "{C9828B61-F60C-4667-AD7F-F97D04C6C1E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorApp", "BlazorApp\BlazorApp.csproj", "{DF589292-6EC9-492D-AE1A-AD32BAD33D53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorApp", "BlazorApp\BlazorApp.csproj", "{DF589292-6EC9-492D-AE1A-AD32BAD33D53}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Relational + Logical + is-not Pattern Matching", "3. Relational + Logical + is-not Pattern Matching", "{0BF0D224-8D06-4A41-97C2-D24EF1BA1B16}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Records", "4. Records", "{C40C55D5-26E3-496A-90C2-9F9E2EDCBD76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecordDemo", "RecordDemo\RecordDemo.csproj", "{D81A091C-4F25-4C95-B343-6C77C4DF5EAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecordDemo", "RecordDemo\RecordDemo.csproj", "{D81A091C-4F25-4C95-B343-6C77C4DF5EAF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Delegates_Events_Threads", "Delegates_Events_Threads", "{9DECE7DA-D82F-4765-B9C6-E31B54D72EB5}"
 EndProject
@@ -37,11 +37,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Reflection", "Reflection", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Understanding tough concepts", "Understanding tough concepts", "{C3F9D6D8-7CDA-49DA-BB25-0E1A511435F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicDelegates", "BasicDelegates\BasicDelegates.csproj", "{8668F3A8-34AE-4CFF-9B88-9D475D74955A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicDelegates", "BasicDelegates\BasicDelegates.csproj", "{8668F3A8-34AE-4CFF-9B88-9D475D74955A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActionAndFuncDelegates", "ActionAndFuncDelegates\ActionAndFuncDelegates.csproj", "{77136DCD-F25D-485F-B1BA-FB401BC3BBC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ActionAndFuncDelegates", "ActionAndFuncDelegates\ActionAndFuncDelegates.csproj", "{77136DCD-F25D-485F-B1BA-FB401BC3BBC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleEvents", "SimpleEvents\SimpleEvents.csproj", "{20477329-B0EC-419F-ADE8-291D562AD6A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleEvents", "SimpleEvents\SimpleEvents.csproj", "{20477329-B0EC-419F-ADE8-291D562AD6A7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Basic Delegates", "1. Basic Delegates", "{0D85591E-EDDA-4DF7-8EF8-F32FCFD5461D}"
 EndProject
@@ -95,7 +95,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IEnumerable vs IQueryable",
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IDisposable", "IDisposable", "{8F6BF580-D920-4AD2-AE4F-988F96A9C50F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesAndHigherOrderFunctions", "DelegatesAndHigherOrderFunctions\DelegatesAndHigherOrderFunctions.csproj", "{D304AF72-517B-46FD-8D23-20A53711EC59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegatesAndHigherOrderFunctions", "DelegatesAndHigherOrderFunctions\DelegatesAndHigherOrderFunctions.csproj", "{D304AF72-517B-46FD-8D23-20A53711EC59}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Threading", "Threading\Threading.csproj", "{24739D57-B8C9-45C3-AA00-0C9AFDD389FB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Async_Await", "Async_Await\Async_Await.csproj", "{70A9BB06-49DB-4922-83F7-19E5F6CBCC8E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Semaphore", "Semaphore\Semaphore.csproj", "{BCFF70FF-6105-4B87-ADF2-7CBE0CAFD55C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1DB86776-D624-47F5-9109-30232143F225}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Channels", "Channels\Channels.csproj", "{015B86D4-F83D-4308-B0E5-C82D71F17DC2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +160,22 @@ Global
 		{D304AF72-517B-46FD-8D23-20A53711EC59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D304AF72-517B-46FD-8D23-20A53711EC59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D304AF72-517B-46FD-8D23-20A53711EC59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24739D57-B8C9-45C3-AA00-0C9AFDD389FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24739D57-B8C9-45C3-AA00-0C9AFDD389FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24739D57-B8C9-45C3-AA00-0C9AFDD389FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24739D57-B8C9-45C3-AA00-0C9AFDD389FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70A9BB06-49DB-4922-83F7-19E5F6CBCC8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70A9BB06-49DB-4922-83F7-19E5F6CBCC8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70A9BB06-49DB-4922-83F7-19E5F6CBCC8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70A9BB06-49DB-4922-83F7-19E5F6CBCC8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCFF70FF-6105-4B87-ADF2-7CBE0CAFD55C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCFF70FF-6105-4B87-ADF2-7CBE0CAFD55C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCFF70FF-6105-4B87-ADF2-7CBE0CAFD55C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCFF70FF-6105-4B87-ADF2-7CBE0CAFD55C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{015B86D4-F83D-4308-B0E5-C82D71F17DC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{015B86D4-F83D-4308-B0E5-C82D71F17DC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{015B86D4-F83D-4308-B0E5-C82D71F17DC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{015B86D4-F83D-4308-B0E5-C82D71F17DC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -193,6 +222,10 @@ Global
 		{763FCE3B-CF5E-4FA4-9CB3-2B807C6DB031} = {A2E7F9C1-9947-4F4C-B6F7-B2290D3112A7}
 		{8F6BF580-D920-4AD2-AE4F-988F96A9C50F} = {1A7200D9-6C7C-4A7B-A777-117ED1A7C666}
 		{D304AF72-517B-46FD-8D23-20A53711EC59} = {E4CF20DE-991F-4424-ADC2-63DEB7C8A95F}
+		{24739D57-B8C9-45C3-AA00-0C9AFDD389FB} = {3DACAD25-9BB7-4554-ADFE-F984BEAD2B7E}
+		{70A9BB06-49DB-4922-83F7-19E5F6CBCC8E} = {2275E21F-DDED-46E4-8372-07CA5B43C5EF}
+		{BCFF70FF-6105-4B87-ADF2-7CBE0CAFD55C} = {597CB785-FF38-41E7-B52F-0CA4537AD348}
+		{015B86D4-F83D-4308-B0E5-C82D71F17DC2} = {39E41764-1A86-43BD-B2F9-C21874C12F2A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1E6F1282-D55A-4512-AE2F-0DD1FD1B5688}
